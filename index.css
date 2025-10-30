@@ -654,6 +654,25 @@ body,
     background-color: #1f2029 !important;
 }
 
+/*.about-section,
+.contact-section,
+.project-section,
+.skill-section,
+.curriculum-section {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    overflow-y: auto !important; /* scroll interno se necessario 
+    padding: 20px;
+}
+
+body.no-scroll {
+    overflow: hidden !important;
+    height: 100vh !important;
+}
+*/
 
 @media (max-width: 768px) {
 
@@ -687,7 +706,6 @@ body,
         align-items: center;
         text-align: center;
         padding: 0 15px;
-        background-image: url(image/MelRibeiro.gif);
     }
 
     .hero-section h1 {
