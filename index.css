@@ -729,11 +729,12 @@ body.no-scroll {
         bottom: auto; /* rimuove l'ancoraggio al fondo */
         left: auto;
         transform: none;
+        
     }
 
     .hero-section p span {
         display: block;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         color: #fff;
         letter-spacing: 1px;
         padding-bottom: 5px;
