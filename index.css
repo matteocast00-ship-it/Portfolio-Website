@@ -52,11 +52,14 @@ a:hover {
 
 /* piccolo alone sfumato sotto il cursore */
 .cursor {
-    height: 12px;                     /* dimensione dell'ombra */
+    height: 12px;
+    /* dimensione dell'ombra */
     width: 12px;
-    background: rgba(255, 255, 255, 0.2); /* alone bianco trasparente */
+    background: rgba(255, 255, 255, 0.2);
+    /* alone bianco trasparente */
     border-radius: 50%;
-    filter: blur(6px);                /* sfumatura morbida */
+    filter: blur(6px);
+    /* sfumatura morbida */
     z-index: 99999;
 }
 
@@ -101,7 +104,8 @@ a:hover {
 
 
 .hover-target.text-dark {
-    color: #000 !important; /* testo più scuro */
+    color: #000 !important;
+    /* testo più scuro */
 }
 
 /* #Primary style
@@ -131,10 +135,10 @@ a:hover {
     line-height: 1;
     font-weight: 900;
     text-shadow:
-    -1px -1px 2px rgba(0,0,0,0.8),
-     1px -1px 2px rgba(0,0,0,0.8),
-    -1px  1px 2px rgba(0,0,0,0.8),
-     1px  1px 2px rgba(0,0,0,0.8);
+        -1px -1px 2px rgba(0, 0, 0, 0.8),
+        1px -1px 2px rgba(0, 0, 0, 0.8),
+        -1px 1px 2px rgba(0, 0, 0, 0.8),
+        1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 .hero-section .dancing {
@@ -145,10 +149,10 @@ a:hover {
     line-height: 1;
     font-weight: 700;
     text-shadow:
-    -1px -1px 2px rgba(0,0,0,0.8),
-     1px -1px 2px rgba(0,0,0,0.8),
-    -1px  1px 2px rgba(0,0,0,0.8),
-     1px  1px 2px rgba(0,0,0,0.8);
+        -1px -1px 2px rgba(0, 0, 0, 0.8),
+        1px -1px 2px rgba(0, 0, 0, 0.8),
+        -1px 1px 2px rgba(0, 0, 0, 0.8),
+        1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (max-width: 580px) {
@@ -326,8 +330,10 @@ body.about-on .about-section {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    object-fit: cover; /* 🔥 mantiene il rapporto senza stirare */
-    object-position: center; /* centra il soggetto */
+    object-fit: cover;
+    /* 🔥 mantiene il rapporto senza stirare */
+    object-position: center;
+    /* centra il soggetto */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -338,22 +344,22 @@ body.about-on .about-section {
     font-size: 40px;
     font-weight: 400;
     text-shadow:
-    -1px -1px 2px rgba(0,0,0,0.8),
-     1px -1px 2px rgba(0,0,0,0.8),
-    -1px  1px 2px rgba(0,0,0,0.8),
-     1px  1px 2px rgba(0,0,0,0.8);
+        -1px -1px 2px rgba(0, 0, 0, 0.8),
+        1px -1px 2px rgba(0, 0, 0, 0.8),
+        -1px 1px 2px rgba(0, 0, 0, 0.8),
+        1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-.about-section p{
+.about-section p {
     letter-spacing: 1px;
     color: #ffffff;
     font-size: 20px;
     font-weight: 400;
     text-shadow:
-    -1px -1px 2px rgba(0,0,0,0.8),
-     1px -1px 2px rgba(0,0,0,0.8),
-    -1px  1px 2px rgba(0,0,0,0.8),
-     1px  1px 2px rgba(0,0,0,0.8);
+        -1px -1px 2px rgba(0, 0, 0, 0.8),
+        1px -1px 2px rgba(0, 0, 0, 0.8),
+        -1px 1px 2px rgba(0, 0, 0, 0.8),
+        1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 .contact-text {
@@ -465,7 +471,7 @@ body.contact-on .contact-section {
 
     .contact-section .social a {
         margin-left: 3px;
-        margin-right: 3px; 
+        margin-right: 3px;
         font-size: 13px;
         letter-spacing: 0;
     }
@@ -588,13 +594,13 @@ body.curriculum-on .curriculum-section {
     text-decoration: none;
     letter-spacing: 1px;
     transition: all 0.3s ease;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .download-btn:hover {
     background-color: #a084d8;
     transform: scale(1.05);
-    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
 }
 
 /* Responsive per mobile */
@@ -633,7 +639,8 @@ body.curriculum-on .curriculum-section {
     box-shadow: 0 0 0 20px rgba(255, 255, 255, .1);
 }
 
-html, body {
+html,
+body {
     background-color: #1f2029 !important;
 }
 
@@ -647,36 +654,20 @@ body,
     background-color: #1f2029 !important;
 }
 
-/*.about-section,
-.contact-section,
-.project-section,
-.skill-section,
-.curriculum-section {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100vw !important;
-    height: 100vh !important;
-    overflow-y: auto !important; /* scroll interno se necessario 
-    padding: 20px;
-}
-
-body.no-scroll {
-    overflow: hidden !important;
-    height: 100vh !important;
-}
-*/
 
 @media (max-width: 768px) {
+
     /* Generale */
-    html, body {
+    html,
+    body {
         font-size: 16px;
         overflow-x: hidden;
-        overflow-y: hidden; 
+        overflow-y: hidden;
         height: 100%;
     }
 
-    h1, h3 {
+    h1,
+    h3 {
         font-size: 1.8rem;
     }
 
@@ -688,9 +679,15 @@ body.no-scroll {
 
     /* Hero Section */
     .hero-section {
-        padding: 60px 10px;
+        position: relative;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        height: 100% !important;
+        padding: 0 15px;
+        background-image: url(image/Wallpaler\ arayana.jpeg);
     }
 
     .hero-section h1 {
@@ -698,14 +695,39 @@ body.no-scroll {
         margin-bottom: 10px;
     }
 
-    .dancing {
-        font-size: 1.2rem;
+    .hero-section .dancing {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    /* Le scritte “Curriculum / Competenze / Progetti” */
+    .hero-section p {
+        display: flex;
+        flex-direction: column; /* ✅ in colonna */
+        align-items: center;
+        gap: 15px; /* spazio verticale tra le voci */
+        margin-top: 10px;
+        position: relative;
+        bottom: auto; /* rimuove l'ancoraggio al fondo */
+        left: auto;
+        transform: none;
     }
 
     .hero-section p span {
         display: block;
-        margin: 10px 0;
-        font-size: 1rem;
+        font-size: 1.1rem;
+        color: #fff;
+        letter-spacing: 1px;
+        padding-bottom: 5px;
+        text-shadow:
+            -1px -1px 2px rgba(0, 0, 0, 0.8),
+             1px -1px 2px rgba(0, 0, 0, 0.8),
+            -1px  1px 2px rgba(0, 0, 0, 0.8),
+             1px  1px 2px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero-section p span:before {
+        display: none; /* 🔥 rimuove l’icona decorativa per un look più pulito su mobile */
     }
 
     /* About Section */
@@ -775,14 +797,17 @@ body.no-scroll {
     }
 
     /* Layout di contenitore generale */
-    .container, .container-fluid {
+    .container,
+    .container-fluid {
         padding-left: 10px;
         padding-right: 10px;
     }
 
     /* Evita lo sfondo bianco durante le transizioni */
-    body, html {
-        background-color: #0a0a0a !important; /* stesso colore dello sfondo principale */
+    body,
+    html {
+        background-color: #0a0a0a !important;
+        /* stesso colore dello sfondo principale */
     }
 
     .hero-section {
@@ -803,11 +828,13 @@ body.no-scroll {
         left: 0;
         width: 100vw;
         height: 100vh;
-        transform: translateX(100%); /* fuori schermo a destra */
+        transform: translateX(100%);
+        /* fuori schermo a destra */
         transition: transform 0.3s ease;
-        overflow-y: auto; /* scroll interno se necessario */
+        overflow-y: auto;
+        /* scroll interno se necessario */
         z-index: 10;
-        background-color: rgba(31,32,41,1);
+        background-color: rgba(31, 32, 41, 1);
     }
 
     /* Quando la sezione è aperta */
@@ -816,7 +843,8 @@ body.no-scroll {
     body.project-on .project-section,
     body.skill-on .skill-section,
     body.curriculum-on .curriculum-section {
-        transform: translateX(0); /* entra a schermo */
+        transform: translateX(0);
+        /* entra a schermo */
     }
 
     /* Blocca scroll body quando una sezione è aperta */
@@ -829,4 +857,3 @@ body.no-scroll {
         height: 100vh;
     }
 }
-
